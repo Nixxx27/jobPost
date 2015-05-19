@@ -1,0 +1,244 @@
+
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+	padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	/*background-image: url(../img/test.png);
+	background-repeat: repeat;
+	background-attachment: fixed;*/
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#logo{
+	height:35px;
+	width: 180px;
+	margin-top: -3px;
+	margin-right: 5px;
+	
+	}
+
+#isago{
+    height:100px;
+    width: auto;
+    margin-top: -3px;
+    margin-right: 5px;
+    
+    }
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+/* Bootsrap Custom */
+
+.navbar-inverse {
+  background-color: #790606;
+  border-color: #790606;
+}
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px;
+    left: 10px;
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px;
+    left: 10px;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus{
+
+color: #080808 !important;
+background-color: #fff !important; 
+}
+
+
+.panel-default>.panel-heading {
+font-family: century gothic;
+color: white;
+background-color: #790606;
+border-color: #ddd;
+}
+
+
+/*  ================= */
+
+hr {
+display: block;
+-webkit-margin-before: 0.5em;
+-webkit-margin-after: 0.5em;
+-webkit-margin-start: auto;
+-webkit-margin-end: auto;
+border-style: inset;
+border-width: 1px;
+}
+
+hr {
+margin: 1px 0;
+border: 0;
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #ffffff;
+}
+
+
+
+.hrstyle {
+	border-top-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 2px;
+	border-left-width: 0;
+	border-bottom-style: inset;
+	border-bottom-color: #CCC;
+}
+
+#noshadow{
+    height:60px;
+}
+
+
+
+.left20
+{
+
+    margin-left:30px;
+
+}
+
+#footerlogo{
+    height:25px;
+}
+
+#top20{
+
+    margin-top:10px;
+}
+
+.headername{
+    font-size: 47px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+
+
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.cursorpointer{
+    cursor:pointer;
+}
+
+.cursornotallowed{
+    cursor:not-allowed;
+}
+
+.panel-default1 {
+border-color: #ddd;
+}
+
+
+.panel-default1>.panel-heading1 {
+font-family: century gothic;
+color: white;
+background-color: #790606;
+border-color: #ddd;
+}
+
+.panel-default1>.panel-heading1 {
+color: white;
+background-color: #790606;
+border-color: #ddd;
+}
+
+.panel-heading1{
+padding:1px 20px;
+border-bottom:1px solid transparent;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+}
+
+
+.red{
+border-bottom: 1px solid #D59898;
+}
+
+
+.gray{
+background-color:#efeff5;
+}
+
